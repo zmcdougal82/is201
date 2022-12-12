@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -74,6 +75,22 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+.resumej {
+  font-size: 20pt;
+ }
+ .resumed {
+  font-size: 14pt;
+ }
+ .resumel {
+  font-size: 16pt;
+ }
+ .resumesec {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 body {
@@ -11288,7 +11305,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/back.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
